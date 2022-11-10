@@ -163,6 +163,249 @@ p{
   color: #000000;
   opacity: 1;
 }
+
+===============================Second and Third ================================
+    
   
-  
+  import React from 'react'
+import dia from './images/icon-group-two/Group 146891 (1).svg';
+import sample from './images/icon-group-one/Group 146822.svg'
+
+function Home() {
+    return (
+        <>
+            <div className="main">
+                <div className="first">
+                    
+                </div>
+
+
+                <div className="second">
+                    <div className="heading2">
+                        <div>MEASUREMENT </div>
+                        <div>TO OUR SUCCESS</div>
+                    </div>
+                    <div className='subHeading2'>Our process-driven approach keeps us going</div>
+
+                    <div className="iconMain">
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">MEDIA & ENTERTAINMENT</span> 
+                        </div>
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">HEALTH CARE & WELLNESS</span>
+                        </div>
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">HOSPITALITY & REAL ESTATE</span>
+                        </div>
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">RETAIL & E COMMERCE</span>
+                        </div>
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">EDUCATION &LEARNING</span>
+                        </div>
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">TRAVEL & TRANSPORT</span>
+                        </div>
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">MOBILE & TELECOM</span>
+                        </div>
+                        <div className="iconSubGroupMain">
+                            <img src={sample} alt="" srcset="" />
+                            <span className="iconNameMain">IT & ITES</span>
+                        </div>
+                        
+                    </div>
+                 
+                </div>
+
+
+
+                <div className="third">
+                    <div className="heading3">
+                        <div>WE ARE WORKING</div> <div>WITH THESE INDUSTRIES</div>
+
+                    </div>
+
+                    <div className="iconGroup">
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">MEDIA & ENTERTAINMENT</span> 
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">HEALTH CARE & WELLNESS</span>
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">HOSPITALITY & REAL ESTATE</span>
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">RETAIL & E COMMERCE</span>
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">EDUCATION &LEARNING</span>
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">TRAVEL & TRANSPORT</span>
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">MOBILE & TELECOM</span>
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">IT & ITES</span>
+                        </div>
+                        <div className="iconSubGroup">
+                            <img src={dia} alt="" srcset="" />
+                            <span className="iconName">AGRITECH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Home;
+
+=========================================Second and third CSS ============================
+    
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1078px;
+
+    background: #00FF00 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 0px 531px;
+    opacity: 1;
+}
+
+.second {
+    width: 100%;
+    height: 50rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.heading2 {
+    text-align: center;
+    font: normal normal 900 60px/60px Gilroy;
+    letter-spacing: 0px;
+    color: #00FF00;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+    top: 2rem;
+}
+
+.iconMain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    position: absolute;
+    top: 12rem;
+
+}
+
+.iconSubGroupMain {
+    display: flex;
+    width: 30%;
+    align-items: center;
+
+}
+
+.iconNameMain {
+    text-align: left;
+    font: normal normal 600 24px/30px Gilroy ☞;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.subHeading2 {
+    text-align: center;
+    font: normal normal medium 16px/55px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    top: 8.9rem;
+}
+
+.third {
+    width: 100%;
+    height: 60rem;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading3 {
+    text-align: center;
+    font: normal normal 900 60px/60px Gilroy;
+    letter-spacing: 0px;
+    color: #09090A;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 2.5rem;
+}
+
+.iconGroup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.iconSubGroup {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.iconName {
+    text-align: left;
+    font: normal normal 600 24px/30px Gilroy;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-left: 0.5rem;
+}
   
